@@ -8,8 +8,8 @@
 #include <TimerOne.h>
 
 //määritetyt lähetysportit
-const int outPin1 = 2;
-const int outPin2 = 3;
+const int outPin1 = 9;
+const int outPin2 = 10;
 
 void setup() {
   //lähetetään porteista
