@@ -36,7 +36,7 @@ void setup() {
   lcd.setCursor(0, 0);
   lcd.print("Cleared!");
 
-  delay(3000); //ehkä korjaa miksi "Cleared!" ei näy
+  delay(3000); //näytetään "Cleared!"
 
   //Portit, joista luetaan
   pinMode(2, INPUT);
@@ -55,7 +55,6 @@ void loop() {
   lcd.setCursor(0, 0);
   lcd.print("CNL1: ");
   lcd.print(pulsesA);
-  
   lcd.setCursor(0, 1);
   lcd.print("CNL2: ");
   lcd.print(pulsesB);
